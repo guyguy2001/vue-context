@@ -13,13 +13,12 @@
     z-index: 1500;
     position: fixed;
     list-style: none;
-
+    outline: 0;
     > li {
         margin: 0;
 
         > a {
             display: block;
-            width: 100%;
             padding: .50rem 1.5rem;
             font-weight: 400;
             color: $item-color;
@@ -27,6 +26,7 @@
             white-space: nowrap;
             background-color: transparent;
             border: 0;
+            outline: 0;
 
             &:hover,
             &:focus {
